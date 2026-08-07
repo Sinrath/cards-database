@@ -72,18 +72,18 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos',
-			thirdParty: {
-				cardmarket: 867791
-			}
-		},
-		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857601,
 				tcgplayer: 662229,
 				cardtrader: 356809
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 867791
 			}
 		},
 		{

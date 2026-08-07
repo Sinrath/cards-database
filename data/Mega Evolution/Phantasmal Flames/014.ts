@@ -66,7 +66,8 @@ const card: Card = {
 		{
 			type: 'holo',
 			thirdParty: {
-				cardmarket: 858503,
+				cardmarket: 857589,
+				tcgplayer: 662201,
 				cardtrader: 356797
 			}
 		},
@@ -79,10 +80,10 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'normal',
+			type: 'holo',
+			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 857589,
-				tcgplayer: 662201
+				cardmarket: 858503
 			}
 		},
 	],
