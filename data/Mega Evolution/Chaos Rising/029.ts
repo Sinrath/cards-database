@@ -91,17 +91,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 888542,
+				cardmarket: 886421,
 				tcgplayer: 693445
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 888542,
+				cardmarket: 886421,
 				tcgplayer: 693445
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888542
 			}
 		},
 	],
