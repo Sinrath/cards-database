@@ -86,10 +86,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 888530,
-				tcgplayer: 694638
+				cardmarket: 886460,
+				tcgplayer: 693495
 			}
 		},
 		{
@@ -100,10 +100,10 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
+			type: "normal",
 			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
+				cardmarket: 888530,
+				tcgplayer: 694638
 			}
 		},
 	],
