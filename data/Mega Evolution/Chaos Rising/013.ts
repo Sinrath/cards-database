@@ -105,6 +105,13 @@ const card: Card = {
 			}
 		},
 		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 886405,
+				tcgplayer: 693473
+			}
+		},
+		{
 			type: 'holo',
 			stamp: ['set-logo'],
 			thirdParty: {
