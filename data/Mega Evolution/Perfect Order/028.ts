@@ -111,8 +111,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["set-logo"],
 			thirdParty: {
-				tcgplayer: 685560,
-				cardmarket: 877705
+				cardmarket: 877705,
+				tcgplayer: 685560
 			}
 		},
 		{
