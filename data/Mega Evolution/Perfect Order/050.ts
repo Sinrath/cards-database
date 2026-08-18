@@ -109,15 +109,33 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				tcgplayer: 704418
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["gamestop"]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 898805
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["eb-games"]
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["gamestop"],
+			thirdParty: {
+				tcgplayer: 685555
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["eb-games"],
+			thirdParty: {
+				tcgplayer: 686505
+			}
 		}
 	],
 
