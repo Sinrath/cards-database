@@ -47,6 +47,13 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 705021,
+				cardmarket: 897473
+			}
+		},
+		{
+			type: "normal",
 			stamp: ["player-rewards-program"],
 			thirdParty: {
 				tcgplayer: 704460
