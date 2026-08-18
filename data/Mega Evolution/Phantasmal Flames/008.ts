@@ -93,8 +93,10 @@ const card: Card = {
 		},
 		{
 			type: 'holo',
+			foil: 'cosmos',
 			stamp: ['set-logo'],
 			thirdParty: {
+				tcgplayer: 664012,
 				cardmarket: 858502
 			}
 		},

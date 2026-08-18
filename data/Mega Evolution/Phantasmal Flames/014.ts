@@ -80,9 +80,9 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'holo',
-			stamp: ['set-logo'],
+			type: 'normal',
 			thirdParty: {
+				tcgplayer: 664004,
 				cardmarket: 858503
 			}
 		},

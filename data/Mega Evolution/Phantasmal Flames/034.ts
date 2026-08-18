@@ -89,6 +89,14 @@ const card: Card = {
 				cardtrader: 356817
 			}
 		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				tcgplayer: 696233,
+				cardmarket: 891252
+			}
+		},
 	],	
 }
 

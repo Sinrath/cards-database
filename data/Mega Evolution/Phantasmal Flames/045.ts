@@ -82,7 +82,16 @@ const card: Card = {
 		{
 			type: 'normal',
 			thirdParty: {
+				tcgplayer: 664005,
 				cardmarket: 858507
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				tcgplayer: 696145,
+				cardmarket: 891734
 			}
 		},
 	],	
