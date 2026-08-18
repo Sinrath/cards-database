@@ -96,7 +96,8 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
+			type: "holo",
+			foil: "cosmos",
 			thirdParty: {
 				cardmarket: 899378
 			}
