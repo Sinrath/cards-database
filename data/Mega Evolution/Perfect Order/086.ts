@@ -46,7 +46,10 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 881889
+			}
 		},
 		{
 			type: "normal",
