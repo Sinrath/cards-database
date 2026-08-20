@@ -111,6 +111,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["player-rewards-program"],
 			thirdParty: {
+				cardmarket: 894139,
 				tcgplayer: 704418
 			}
 		},
@@ -127,6 +128,7 @@ const card: Card = {
 			foil: "cosmos",
 			stamp: ["gamestop"],
 			thirdParty: {
+				cardmarket: 877703,
 				tcgplayer: 685555
 			}
 		},
@@ -135,6 +137,7 @@ const card: Card = {
 			foil: "cosmos",
 			stamp: ["eb-games"],
 			thirdParty: {
+				cardmarket: 881891,
 				tcgplayer: 686505
 			}
 		}

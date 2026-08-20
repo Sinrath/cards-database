@@ -56,6 +56,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["player-rewards-program"],
 			thirdParty: {
+				cardmarket: 894230,
 				tcgplayer: 704457
 			}
 		},
@@ -64,6 +65,7 @@ const card: Card = {
 			stamp: ["player-rewards-program"],
 			foil: "cosmos",
 			thirdParty: {
+				cardmarket: 894231,
 				tcgplayer: 704458
 			}
 		}
