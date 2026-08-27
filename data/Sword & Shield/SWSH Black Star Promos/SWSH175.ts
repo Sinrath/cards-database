@@ -68,9 +68,16 @@ const card: Card = {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
 
-	thirdParty: {
-		cardmarket: 491204
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 491204,
+				tcgplayer: 253413
+			}
+		}
+	]
 }
 
 export default card
