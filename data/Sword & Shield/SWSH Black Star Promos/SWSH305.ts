@@ -45,17 +45,14 @@ const card: Card = {
 		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal into two.",
 	},
 
+	regulationMark: "F",
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2022"],
-			thirdParty: {
-				tcgplayer: 485845
-			},
+			stamp: ["illustration-contest-2022"]
 		},
 	],
-
-	regulationMark: "F"
 }
 
 export default card

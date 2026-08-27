@@ -29,12 +29,11 @@ const card: Card = {
     regulationMark: "F",
     illustrator: "Mitsuhiro Arita",
 
-    variants: {
-        normal: false,
-        reverse: false,
-        holo: true,
-        firstEdition: false
-    }
+	variants: [
+		{
+			type: "holo"
+		},
+	],
 }
 
 export default card

@@ -70,18 +70,18 @@ const card: Card = {
 
 	retreat: 4,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 461684
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 461684,
+				tcgplayer: 241884
+			}
+		},
+	],
 }
 
 export default card

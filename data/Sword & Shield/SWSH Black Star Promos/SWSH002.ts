@@ -64,18 +64,22 @@ const card: Card = {
 
 	dexId: [813],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 427086
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 427086,
+				tcgplayer: 200301
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"]
+		},
+	],
 }
 
 export default card

@@ -78,13 +78,20 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [888],
 
-	variants: [
-			{
-				type: "holo",
-			}
-		],
-
 	regulationMark: "D",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 477063
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 	suffix: "V"
 }
 
