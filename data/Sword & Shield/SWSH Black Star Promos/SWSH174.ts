@@ -95,9 +95,16 @@ const card: Card = {
 		en: "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark."
 	},
 
-	thirdParty: {
-		cardmarket: 583201
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 583201,
+				tcgplayer: 253410
+			}
+		}
+	]
 }
 
 export default card
