@@ -57,10 +57,14 @@ const card: Card = {
 	retreat: 3,
 
 	variants: [
-			{
-				type: "holo",
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 282259
 			}
-		],
+		},
+	],
 
 	regulationMark: "D"
 }

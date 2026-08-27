@@ -81,18 +81,18 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [164],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 461674,
+				tcgplayer: 214238
+			}
+		},
+	],
 
-	regulationMark: "D",
-
-	thirdParty: {
-		cardmarket: 461674
-	}
+	regulationMark: "D"
 }
 
 export default card

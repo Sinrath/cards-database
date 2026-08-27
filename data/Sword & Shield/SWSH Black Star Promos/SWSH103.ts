@@ -81,18 +81,21 @@ const card: Card = {
 	stage: "VMAX",
 	dexId: [9],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 546986,
+				tcgplayer: 234299
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 546986
-	}
+	regulationMark: "E"
 }
 
 export default card

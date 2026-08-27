@@ -20,12 +20,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572159,
+				tcgplayer: 248891
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 
 	name: {
 		en: "Mewtwo V-UNION",
@@ -103,11 +110,7 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572159
-	}
+	retreat: 0
 }
 
 export default card

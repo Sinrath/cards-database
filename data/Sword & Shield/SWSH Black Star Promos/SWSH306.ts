@@ -65,10 +65,13 @@ const card: Card = {
 	retreat: 2,
 
 	variants: [
-			{
-				type: "holo",
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 499989
 			}
-		],
+		},
+	],
 
 	regulationMark: "F"
 }

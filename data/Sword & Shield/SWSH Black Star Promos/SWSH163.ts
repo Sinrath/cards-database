@@ -20,12 +20,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572163,
+				tcgplayer: 247364
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 
 	name: {
 		en: "Zacian V-UNION",
@@ -93,11 +100,7 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572163
-	}
+	retreat: 0
 }
 
 export default card

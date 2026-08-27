@@ -14,19 +14,21 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
 	},
 
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 571388
+			}
+		},
+	],
 
 	name: {
 		en: "Special Delivery Bidoof"
@@ -60,11 +62,7 @@ const card: Card = {
 		}
 	}],
 
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 571388
-	}
+	regulationMark: "E"
 }
 
 export default card

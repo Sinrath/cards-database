@@ -67,10 +67,19 @@ const card: Card = {
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
-
-	thirdParty: {
-		cardmarket: 653697
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 653697,
+				tcgplayer: 270724
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 }
 
 export default card

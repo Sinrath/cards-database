@@ -11,12 +11,16 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576730,
+				tcgplayer: 251086
+			}
+		},
+	],
 
 	name: {
 		en: "Pikachu VMAX",
@@ -67,11 +71,7 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D",
-
-	thirdParty: {
-		cardmarket: 576730
-	}
+	regulationMark: "D"
 }
 
 export default card

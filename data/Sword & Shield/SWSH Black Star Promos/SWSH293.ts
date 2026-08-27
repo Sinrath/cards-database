@@ -79,10 +79,17 @@ const card: Card = {
 	dexId: [889],
 
 	variants: [
-			{
-				type: "holo",
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 477064
 			}
-		],
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 
 	regulationMark: "D",
 	suffix: "V"

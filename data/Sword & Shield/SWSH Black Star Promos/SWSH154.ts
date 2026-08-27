@@ -5,12 +5,23 @@ const card: Card = {
 	dexId: [149],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576501,
+				tcgplayer: 247298
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+		{
+			type: "normal",
+			stamp: ["shao-tong-yen"]
+		},
+	],
 
 	name: {
 		en: "Dragonite V",
@@ -75,11 +86,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 576501
-	}
+	regulationMark: "E"
 }
 
 export default card

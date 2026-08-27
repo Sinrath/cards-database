@@ -11,12 +11,16 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 461594,
+				tcgplayer: 251101
+			}
+		},
+	],
 
 	name: {
 		en: "Pikachu V",
@@ -59,11 +63,7 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 461594
-	}
+	regulationMark: "E"
 }
 
 export default card

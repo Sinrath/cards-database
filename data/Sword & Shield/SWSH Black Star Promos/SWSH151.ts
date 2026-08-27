@@ -14,12 +14,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576504,
+				tcgplayer: 247297
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	name: {
 		en: "Jolteon V",
@@ -80,11 +87,7 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 576504
-	}
+	retreat: 0
 }
 
 export default card

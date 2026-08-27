@@ -14,12 +14,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572155,
+				tcgplayer: 248887
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo"
+		},
+	],
 
 	name: {
 		en: "Greninja V-UNION",
@@ -119,11 +126,7 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572155
-	}
+	retreat: 0
 }
 
 export default card

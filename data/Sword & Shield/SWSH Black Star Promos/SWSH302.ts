@@ -29,10 +29,10 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	variants: [
-			{
-				type: "holo",
-			}
-		],
+		{
+			type: "holo"
+		},
+	],
 
 	regulationMark: "E"
 }

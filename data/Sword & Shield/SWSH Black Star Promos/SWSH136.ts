@@ -11,12 +11,21 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576735,
+				tcgplayer: 251092
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"]
+		},
+	],
 
 	name: {
 		en: "Mimikyu",
@@ -77,11 +86,7 @@ const card: Card = {
 		damage: 40
 	}],
 
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 576735
-	}
+	retreat: 1
 }
 
 export default card

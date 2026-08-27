@@ -14,12 +14,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576502,
+				tcgplayer: 247295
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		},
+	],
 
 	name: {
 		en: "Flareon V",
@@ -82,11 +89,7 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 576502
-	}
+	retreat: 2
 }
 
 export default card
