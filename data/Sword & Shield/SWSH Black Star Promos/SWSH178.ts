@@ -28,14 +28,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 569233,
+				tcgplayer: 246275
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 278705
+			}
+		},
+	],
 
 	description: {
 		fr: "Professeur Willow",
@@ -44,10 +53,6 @@ const card: Card = {
 		pt: "Prof. Willow",
 		it: "Professor Willow",
 		en: "Professor Willow"
-	},
-
-	thirdParty: {
-		cardmarket: 569233
 	}
 }
 
