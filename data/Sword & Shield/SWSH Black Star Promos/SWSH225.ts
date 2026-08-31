@@ -82,7 +82,10 @@ const card: Card = {
 		{
 			type: "holo",
 			size: "jumbo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 279028
+			}
 		},
 	],
 }
