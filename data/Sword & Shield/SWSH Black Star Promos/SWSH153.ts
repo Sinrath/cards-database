@@ -61,7 +61,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["snowflake"],
 			thirdParty: {
-				cardmarket: 461594,
+				cardmarket: 672386,
 				tcgplayer: 283301
 			}
 		},
