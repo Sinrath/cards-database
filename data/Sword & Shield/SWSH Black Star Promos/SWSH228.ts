@@ -37,7 +37,8 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			languages: ["pt"]
 		},
 	],
 }

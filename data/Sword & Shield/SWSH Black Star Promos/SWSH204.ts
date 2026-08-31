@@ -72,10 +72,6 @@ const card: Card = {
 				tcgplayer: 271837
 			}
 		},
-		{
-			type: "holo",
-			size: "jumbo"
-		},
 	],
 }
 
