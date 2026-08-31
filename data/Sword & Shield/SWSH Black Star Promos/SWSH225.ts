@@ -84,6 +84,7 @@ const card: Card = {
 			size: "jumbo",
 			stamp: ["set-logo"],
 			thirdParty: {
+				cardmarket: 668989,
 				tcgplayer: 279028
 			}
 		},
