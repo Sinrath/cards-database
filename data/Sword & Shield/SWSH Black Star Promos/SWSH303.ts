@@ -40,17 +40,14 @@ const card: Card = {
 		en: "There is a aplant seed on its back right from the day this Pokémon is born. THe seed slowly grows larger.",
 	},
 
+	regulationMark: "F",
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2022"],
-			thirdParty: {
-				tcgplayer: 485843
-			},
+			stamp: ["illustration-contest-2022"]
 		},
 	],
-
-	regulationMark: "F"
 }
 
 export default card
