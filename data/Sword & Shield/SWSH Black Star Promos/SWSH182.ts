@@ -92,7 +92,10 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 257708
+			}
 		},
 	],
 }
