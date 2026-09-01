@@ -50,7 +50,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2022"]
+			stamp: ["illustration-contest-2022"],
+			thirdParty: {
+				cardmarket: 690367,
+				tcgplayer: 485845
+			}
 		},
 	],
 }
