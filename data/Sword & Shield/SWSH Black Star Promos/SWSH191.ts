@@ -93,7 +93,7 @@ const card: Card = {
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				cardmarket: 604996,
+				cardmarket: 606748,
 				tcgplayer: 264284
 			}
 		},
