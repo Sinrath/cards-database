@@ -25,7 +25,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["shao-tong-yen"]
+			stamp: ["shao-tong-yen"],
+			thirdParty: {
+				cardmarket: 833232,
+				tcgplayer: 542073
+			}
 		},
 	],
 
