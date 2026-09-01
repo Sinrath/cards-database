@@ -26,11 +26,19 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 664818,
+				tcgplayer: 278685
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["gabriel-fernandez"]
+			stamp: ["gabriel-fernandez"],
+			thirdParty: {
+				cardmarket: 832989,
+				tcgplayer: 541790
+			}
 		},
 	],
 
