@@ -55,6 +55,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2022", "staff"],
 			thirdParty: {
+				cardmarket: 672087,
 				tcgplayer: 503454
 			}
 		},
