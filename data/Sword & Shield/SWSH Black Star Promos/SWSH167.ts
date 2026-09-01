@@ -12,7 +12,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 576725,
+				cardmarket: 749245,
 				tcgplayer: 247299
 			}
 		},
@@ -20,6 +20,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["25th-celebration"],
 			thirdParty: {
+				cardmarket: 576725,
 				tcgplayer: 247300
 			}
 		},
