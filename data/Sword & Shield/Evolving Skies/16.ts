@@ -3,6 +3,7 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [52, 235],
 
 
 	name: {
@@ -103,6 +104,21 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 574040,
 				tcgplayer: 246831
+			}
+		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 701491,
+				tcgplayer: 247422
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 697069,
+				tcgplayer: 475978
 			}
 		},
 	],

@@ -4,7 +4,6 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Arceus",
 		de: "Arceus"
 	},
 
@@ -31,12 +30,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Turn",
-				fr: "Tour éclair",
 				de: "Blitzartige Drehung"
 			},
 			effect: {
 				en: "Switch Arceus with 1 of your Benched Pokémon.",
-				fr: "Échangez Arceus avec 1 des Pokémon de votre Banc.",
 				de: "Tausche Arceus gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,

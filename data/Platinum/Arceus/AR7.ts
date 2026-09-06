@@ -4,7 +4,6 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Arceus",
 		de: "Arceus"
 	},
 
@@ -32,12 +31,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Bend",
-				fr: "Contrôleur d'esprit",
 				de: "Gedankenverbiegung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
 				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,

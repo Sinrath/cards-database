@@ -4,7 +4,6 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Arceus",
 		de: "Arceus"
 	},
 
@@ -32,12 +31,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Bright Flame",
-				fr: "Flamme éclatante",
 				de: "Helle Flamme"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy attached to Arceus.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à Arceus.",
 				de: "Wirf 1 Münze. Bei „Zahl“ entferne 2 Energien, die an Arceus angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 80,
