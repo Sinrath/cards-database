@@ -54,6 +54,15 @@ const card: Card = {
 				tcgplayer: 645190
 			}
 		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894222,
+				tcgplayer: 704462
+			}
+		},
 	],
 }
 

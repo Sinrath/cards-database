@@ -93,7 +93,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 836515,
+				cardmarket: 836516,
 				tcgplayer: 642373
 			}
 		},
@@ -101,8 +101,25 @@ const card: Card = {
 			type: "reverse",
 			foil: "masterball",
 			thirdParty: {
-				cardmarket: 836516,
+				cardmarket: 836515,
 				tcgplayer: 642301
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864359,
+				tcgplayer: 671321
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864360,
+				tcgplayer: 703852
 			}
 		},
 	],
