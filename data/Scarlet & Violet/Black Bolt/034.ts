@@ -89,6 +89,18 @@ const card: Card = {
 				tcgplayer: 671743
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894193,
+				tcgplayer: 704471
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["ultra-ball-league"]
+		},
 	],
 }
 
