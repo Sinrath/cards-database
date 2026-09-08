@@ -91,6 +91,14 @@ const card: Card = {
 				tcgplayer: 671556
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["liao-fu-guan"],
+			thirdParty: {
+				cardmarket: 884294,
+				tcgplayer: 689618
+			}
+		},
 	]
 }
 
