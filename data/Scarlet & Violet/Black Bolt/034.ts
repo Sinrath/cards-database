@@ -99,7 +99,10 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["ultra-ball-league"]
+			stamp: ["ultra-ball-league"],
+			thirdParty: {
+				cardmarket: 855692
+			}
 		},
 	],
 }
