@@ -113,6 +113,13 @@ const card: Card = {
 				tcgplayer: 671320
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714873
+			}
+		},
 	],
 }
 

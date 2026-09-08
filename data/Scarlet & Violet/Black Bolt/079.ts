@@ -67,7 +67,15 @@ const card: Card = {
 			foil: "cosmos",
 			stamp: ["great-ball-league"],
 			thirdParty: {
-				cardmarket: 855028
+				cardmarket: 855028,
+				tcgplayer: 696170
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714875
 			}
 		},
 	]
