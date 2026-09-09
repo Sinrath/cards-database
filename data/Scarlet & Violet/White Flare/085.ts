@@ -63,6 +63,14 @@ const card: Card = {
 				tcgplayer: 704462
 			}
 		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["great-ball-league"],
+			thirdParty: {
+				cardmarket: 879275
+			}
+		},
 	],
 }
 
