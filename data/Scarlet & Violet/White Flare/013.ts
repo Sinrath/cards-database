@@ -122,6 +122,13 @@ const card: Card = {
 				tcgplayer: 703852
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714876
+			}
+		},
 	],
 }
 
