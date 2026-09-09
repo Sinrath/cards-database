@@ -53,6 +53,31 @@ const card: Card = {
 				tcgplayer: 642771
 			}
 		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864407,
+				tcgplayer: 675552
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["great-ball-league"],
+			thirdParty: {
+				cardmarket: 855028,
+				tcgplayer: 696170
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714875
+			}
+		},
 	]
 }
 
