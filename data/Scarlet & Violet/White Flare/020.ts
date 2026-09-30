@@ -82,6 +82,30 @@ const card: Card = {
 				tcgplayer: 668958
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864396,
+				tcgplayer: 671676
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894187,
+				tcgplayer: 671676
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["great-ball-league"],
+			thirdParty: {
+				cardmarket: 855029,
+				tcgplayer: 680953
+			}
+		},
 	],
 }
 
