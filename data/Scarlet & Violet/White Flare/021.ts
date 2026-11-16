@@ -91,6 +91,7 @@ const card: Card = {
 			foil: "tinsel",
 			thirdParty: {
 				cardmarket: 836669,
+				tcgplayer: 645572
 			}
 		},
 	],

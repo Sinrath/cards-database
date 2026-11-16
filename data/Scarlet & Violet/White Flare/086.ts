@@ -53,6 +53,14 @@ const card: Card = {
 				tcgplayer: 644832
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894229,
+				tcgplayer: 704426
+			}
+		},
 	],
 }
 
